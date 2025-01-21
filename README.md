@@ -22,10 +22,10 @@ QuickCart is a modern e-commerce web application that provides a seamless shoppi
 - **Tailwind CSS**: For styling with a utility-first approach.
 - **Fake Store API**: For fetching mock product data, including names, prices, and images.
 
-![React](https://img.shields.io/badge/React-18.2.0-blue?style=flat-square&logo=react)
-![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-1.9.5-purple?style=flat-square&logo=redux)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3.2-blue?style=flat-square&logo=tailwindcss)
-![API](https://img.shields.io/badge/Fake%20Store%20API-v1.0-orange?style=flat-square)
+![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react)
+![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-purple?style=flat-square&logo=redux)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-blue?style=flat-square&logo=tailwindcss)
+![API](https://img.shields.io/badge/Fake%20Store%20API-orange?style=flat-square)
 ---
 
 This project showcases modern web development techniques and best practices, offering a functional and visually appealing e-commerce experience.
