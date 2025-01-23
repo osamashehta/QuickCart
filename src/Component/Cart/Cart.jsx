@@ -18,7 +18,7 @@ function Cart() {
         </h3>
         <Table hoverable>
           <Table.Head>
-            <Table.HeadCell>Product name</Table.HeadCell>
+            <Table.HeadCell>Name</Table.HeadCell>
             <Table.HeadCell>Img</Table.HeadCell>
             <Table.HeadCell>Price</Table.HeadCell>
             <Table.HeadCell>Quantity</Table.HeadCell>
@@ -40,18 +40,18 @@ function Cart() {
                 className="bg-white dark:border-gray-700 dark:bg-gray-800"
                 key={product.id}
               >
-                <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                <Table.Cell className=" break-words text-gray-900 dark:text-white">
                   {product.title}
                 </Table.Cell>
                 <Table.Cell style={{ width: "80px", height: "80px" }}>
                   <img src={product.image} alt={product.title}></img>
                 </Table.Cell>
-                <Table.Cell>{product.price} $</Table.Cell>
+                <Table.Cell>{product.price}$</Table.Cell>
                 <Table.Cell>{product.quantity}</Table.Cell>
                 <Table.Cell>
                   <button
                     href="#"
-                    className="font-medium text-cyan-600 hover:underline dark:text-cyan-500"
+                    className="max-w-8 overflow-clip text-cyan-600 hover:underline dark:text-cyan-500"
                     onClick={() => dispatch(deleteFromCart(product))}
                   >
                     Delete
