@@ -14,7 +14,7 @@ function Cart() {
     <>
       <div className="overflow-x-auto ">
         <h3 className="dark:text-white font-bold my-2">
-          Total Price: {totalPrice.toFixed(2)}
+          Total Price: {totalPrice.toFixed(2)}$
         </h3>
         <Table hoverable>
           <Table.Head>
