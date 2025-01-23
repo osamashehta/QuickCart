@@ -51,7 +51,7 @@ function Cart() {
                 <Table.Cell>
                   <button
                     href="#"
-                    className="max-w-8 overflow-clip text-cyan-600 hover:underline dark:text-cyan-500"
+                    className="  text-cyan-600 hover:underline dark:text-cyan-500"
                     onClick={() => dispatch(deleteFromCart(product))}
                   >
                     Delete
