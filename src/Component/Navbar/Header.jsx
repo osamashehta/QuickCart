@@ -38,7 +38,7 @@ function Header() {
             className="flex items-center space-x-3 rtl:space-x-reverse me-4"
           >
             <span className="self-center text-xl md:text-3xl font-mono whitespace-nowrap dark:text-white">
-              QuickCart
+            SwiftBuy
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 text-gray-900 dark:text-gray-100 inline"
